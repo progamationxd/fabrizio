@@ -1,1 +1,60 @@
-fabrizio
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarjeta</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            text-align: center;
+        }
+
+        .tarjeta {
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            width: 300px;
+            margin: 0 auto;
+            margin-top: 50px;
+            
+          
+            background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.5) 50%, transparent 50%);
+            background-size: 200% 200%;
+            transition: background-position 0.5s;
+        }
+
+        .tarjeta:hover {
+            background-position: -100% -100%;
+        }
+
+   
+
+    </style>
+</head>
+<body>
+    <div class="tarjeta">
+
+<img src="https://scontent.xx.fbcdn.net/v/t1.15752-9/371745014_1708890639579578_2092966958454136297_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=aee45a&_nc_ohc=nFdWh5-RHUMAX-Lk7gG&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTc3exo0U_LPp0n9a0f9sea3HlyEhLNZJKsgGTkOfablA&oe=6519F82B" alt="Tu Novia">
+        <h1>¡Buenas noches, Mi vida!</h1>
+        <p>Quiero aprovechar este momento para decirte como es que me soportas jsjsjs. Eres la persona más especial en mi vida, y cada día a tu lado es un regalo.</p>
+        <p>Eres mi razón para sonreír, mi compañera de vida y mi todo. Gracias por ser quien eres.</p>
+        <p>Con todo mi amor, [Tu yoshiaki❤️] </p>
+
+background-image: linear-gradient(45deg, rgba(255, 255, 255, 0.5) 50%, transparent 50%);
+background-size: 200% 200%;
+transition: background-position 0.5s;
+}
+
+.tarjeta:hover {
+    background-position: -100% -100%;
+}
+
+
+        
+    </div>
+</body>
+</html>
+
